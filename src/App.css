@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+body {
+  background-color: #0D1117;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2% 0;
+  background-color: #161B22;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+* {
+  color:#C9D1DA;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav a {
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  text-decoration: none;
+  color:#99D6FF;
+}
+a:hover{
+  color:#0041C5;
+}
+
+ul, li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style: none;
+  padding: 0px;
+  margin: 3% 0;
+
+}
+
+
+div.projects-div, .home, .about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 10%;
+}
+
+.contact-bar, .contact-div h1 {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-bar img{
+  margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #0021A6;
+  padding: 5%;
+  border-radius:20px;
+  margin: 5% 15%;
+}
+.contact-form input, .contact-form textarea{
+  width:95%;
+  color: #0021A6;
+}
+
+.contact-form input:last-child{
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: #2F3339;
+  color: #C9D1DA;
+  padding: 5px;
+  border: 2px solid #2F3339;
+  border-radius: 20px;
+}
+
+.contact-form input:last-child:hover {
+  border-color:#C9D1DA;
+  background-color: #30363D;
+}
+
+
+.home a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.theSwattr, .mindful-muscle, .learn-funny-french {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #0021A6;
+  border-radius: 20px;
+  margin: 5% 0;
+  padding: 0 5%;
+}
+
+.theSwattr h3, .theSwattr h2, .mindful-muscle h3, .mindful-muscle h2, .learn-funny-french h3, .learn-funny-french h2 {
+  text-align: center;
+}
+
+.projects-div h1 {
+  text-align: center;
+  margin-bottom:5%;
+}
+
+.home h1, .about-me h1, .home p {
+  text-align: center;
+}
+
+div.projects-div img {
+  width: 60%;
+}
+
+.home .contact-bar{
+  margin-top: 5%;
 }
