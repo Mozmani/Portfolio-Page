@@ -2,10 +2,20 @@ import React from 'react'
 import MM from '../images/MM.png'
 import swattr from '../images/swattr.png'
 import LFF from '../images/LFF.png'
+import { zoomIn } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
+
+const styles = {
+  zoomIn: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(zoomIn, 'zoomIn')
+  }
+}
 
 const Projects = () => {
   return (
-    <div className='projects-div'>
+    <StyleRoot>
+    <div className='projects-div' style={styles.zoomIn}>
       <h1>I build innovative and intuitive applications.</h1>
 
       <div className='theSwattr'>
@@ -52,6 +62,7 @@ const Projects = () => {
       </div>
 
     </div>
+    </StyleRoot>
   )
 }
 

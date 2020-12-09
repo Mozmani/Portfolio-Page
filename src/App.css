@@ -12,6 +12,7 @@ nav {
 
 * {
   color:#C9D1DA;
+  font-family: 'Fira Code', monospace;
 }
 
 nav a {
@@ -36,6 +37,10 @@ ul, li {
 
 }
 
+.about-me img {
+  width: 50%;
+  border-radius: 50%;
+}
 
 div.projects-div, .home, .about-me {
   display: flex;
@@ -47,10 +52,12 @@ div.projects-div, .home, .about-me {
 .contact-bar, .contact-div h1 {
   display: flex;
   justify-content: center;
+  margin-top: 8%;
 }
 
 .contact-bar img{
   margin-left: 5px;
+  margin-bottom: 8%;
 }
 
 .contact-form{

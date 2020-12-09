@@ -3,10 +3,20 @@ import {Link} from 'react-router-dom'
 import github from '../images/github.png'
 import gmail from '../images/gmail.png'
 import linkedin from '../images/linkedin.png'
+import { zoomIn } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
+
+const styles = {
+  zoomIn: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(zoomIn, 'zoomIn')
+  }
+}
 
 const Home = () => {
   return (
-    <div className='home'>
+    <StyleRoot>
+      <div className='home' style={styles.zoomIn}>
       <div className='h2-header'>
         <h2>Hi, I'm Mark.</h2>
       </div>
@@ -14,7 +24,7 @@ const Home = () => {
         <h1>Software Developer. People Person. </h1>
       </div>
       <div className='home-desc'>
-        <p>JavaScript full stack developer who builds, designs and fixes applications</p>
+        <p>JavaScript full stack developer who builds, designs and fixes applications.</p>
         <ul>
           <h3>List of services:</h3>
         <li>Custom Applications</li>
@@ -39,6 +49,8 @@ const Home = () => {
       </div>
       
     </div>
+    </StyleRoot>
+    
   )
 }
 

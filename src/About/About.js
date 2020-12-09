@@ -1,14 +1,26 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import me from '../images/me.jpg'
+import { zoomIn } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
+
+const styles = {
+  zoomIn: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(zoomIn, 'zoomIn')
+  }
+}
 
 const About = () => {
   return (
-    <div className='about-me'>
+    <StyleRoot>
+    <div className='about-me' style={styles.zoomIn}>
       <h1>I build and design full stack applications.</h1>
+      <img alt='me' src={me}></img>
       <p>Hi, I'm Mark Marcello a full stack JavaScript developer with a background in Physical Therapy and Carpentry.</p>
       <p>Coming from the great state of New York, I have always aspired to create a positive impact on the world. 
         My journey started by learning carpentry and then taking that craftsmanship into a new world as a certified 
-        Physical therapist Assistant. I used this position to create positive impact directly in each of my client's by promoting
+        Physical Therapist Assistant. I used this position to create positive impact directly in each of my client's by promoting
         a transition to a pain free life. 
         While I still thoroughly enjoy helping people invdividually, I am now focused on promoting this work on a larger scale.
       </p>
@@ -21,6 +33,7 @@ const About = () => {
         If you would like to work with me of this journey or would like some free lance work done, please feel free to <Link to='/contact'>Contact me!</Link>
       </p>
     </div>
+    </StyleRoot>
   )
 }
 
