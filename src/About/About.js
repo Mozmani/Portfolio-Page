@@ -20,7 +20,7 @@ const About = () => {
       <p>Hi, I'm Mark Marcello a full stack JavaScript developer with a background in Physical Therapy and Carpentry.</p>
       <p>Coming from the great state of New York, I have always aspired to create a positive impact on the world. 
         My journey started by learning carpentry and then taking that craftsmanship into a new world as a certified 
-        Physical Therapist Assistant. I used this position to create positive impact directly in each of my clients by promoting
+        Physical Therapist Assistant. I used this position to create a positive impact directly in each of my clients by promoting
         a transition to a pain free life. 
         While I still thoroughly enjoy helping people invdividually, I am now focused on promoting this work on a larger scale.
       </p>
