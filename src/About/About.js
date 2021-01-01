@@ -22,7 +22,7 @@ const About = () => {
         My journey started by learning carpentry and then taking that craftsmanship into a new world as a certified 
         Physical Therapist Assistant. I used this position to create a positive impact directly in each of my clients by promoting
         a transition to a pain free life. 
-        While I still thoroughly enjoy helping people invdividually, I am now focused on promoting this work on a larger scale.
+        While I still thoroughly enjoy helping people individually, I am now focused on promoting this work on a larger scale.
       </p>
       <p>As a graduate of <a href='https://www.thinkful.com/' target="_blank">Thinkful's</a> Software Engineering Immersion Program, I am happy to announce that I am ready to start my journey 
         as a professional developer. Over the course of this intensive program, I have worked with numerous amazing developers and have built some 
