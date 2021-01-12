@@ -1,5 +1,5 @@
 import React from 'react'
-import MM from '../images/MM.png'
+import MM from '../images/mm.png'
 import swattr from '../images/swattr.png'
 import LFF from '../images/LFF.png'
 import { zoomIn } from 'react-animations';
