@@ -9,7 +9,7 @@ const Header = () => {
           <Link to='/about'>About</Link>
           <Link to='projects'>Projects</Link>
           <Link to='contact'>Contact</Link>
-          <a href='https://docs.google.com/document/d/1eZUrfCBuc2OLjHcpPhVBHY_oGJuV6dwMXypp82S2mik/edit?usp=sharing' target='Blank'>Resume</a>
+          <a href='https://docs.google.com/document/d/1_peqfJ7egs3gs0OofYoM-wNrpAS44Ia8Rgd0rcnLqLo/edit?usp=sharing' target='Blank'>Resume</a>
         </nav>
 
     </header>
